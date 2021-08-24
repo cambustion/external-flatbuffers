@@ -129,6 +129,12 @@ package-lock.json
 /*.ilk
 /*.pdb
 .clwb
+js/**/*.js
+js/**/*.d.ts
+js/**/*.map
+mjs/**/*.js
+mjs/**/*.d.ts
+mjs/**/*.map
 yarn-error.log
 .cache/
 /flatbuffers.lib

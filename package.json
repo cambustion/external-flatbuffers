@@ -17,7 +17,7 @@
   },
   "scripts": {
     "test": "npm run compile && cd tests && ./TypeScriptTest.sh",
-    "compile": "tsc && tsc -p tsconfig.mjs.json",
+    "compile": "tsc --listEmittedFiles && tsc -p tsconfig.mjs.json --listEmittedFiles",
     "prepublishOnly": "npm install --only=dev && npm run compile"
   },
   "repository": {
